@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Fav Icon -->
+    <link rel="icon" href="./images/logo.png" type="image.png" sizes="16x16 32x32 48x48">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"> 
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Site Header -->
+    <header>
+        <div class="header-container">
+            <div class="headerFlex">
+                <div class="site-Logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="image" title="logo"></a>
+                </div>
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <ul>
+                            <li><a href="our-story.html">Our Story</a></li>
+                            <li><a href="listings.html">Listings</a></li>
+                            <li><a href="our-services.html">Services</a></li>
+                            <li><a href="our-team.html">Teams</a></li>
+                            <li><a href="transactions.html">Transactions</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a class="contact-click" href="#.">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hamButton">
+                    <button>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="mobile-overlay"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Loag Logo -->
+    <section class="loadLogo">
+        <div class="loadLogoImage"><img src="./images/load-new-logo.png" alt=""></div>
+    </section>
+    <!-- Home Banner Section -->
+    <section class="home-first-section">
+            <div class="bannerBackgroundVideo">
+                <video src="./images/pexels-cityxcape.mp4" autoplay muted loop></video>
+            </div>
+            <div class="container">
+                <div class="bannerInner">
+                    <div class="bannerLeftTextInner">
+                        <h1>We Are Big Enough To Assist You & Small Enough To Know You</h1>
+                        <!-- <a href="#">Learn More </a> -->
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Featured Listings Section -->
+    <section class="featuredListings">
+            <div class="featureHeading">
+                <h2>Featured Listings</h2>
+            </div>
+            <div class="featuredListingsTabbing">
+                <div class="tabButtons">
+                    <button id="defaultOpen" class="tabLinks" onclick="openTab(event, 'tab1')"> All</button>
+                    <button class="tabLinks" onclick="openTab(event, 'tab2')">Manhattan</button>
+                    <button class="tabLinks" onclick="openTab(event, 'tab3')">Brooklyn</button>
+                  </div>
+                    
+                  <div class="tabContentMain">
+
+                    <div  id="tab1" class="tabContent">
+                        <div class="tabbing-slider">
+                            <div class="tabbing-inner">
+                                <div class="tab-slider owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner"  style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div  id="tab2" class="tabContent">
+                        <div class="tabbing-slider">
+                            <div class="tabbing-inner">
+                                <div class="tab-slider owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner"  style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  id="tab3" class="tabContent">
+                        <div class="tabbing-slider">
+                            <div class="tabbing-inner">
+                                <div class="tab-slider owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner"  style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide1.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide2.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tab-slider-inner" style="background-image: url(./images/slide3.png);">
+                                            <div class="tab-content-container">
+                                                <div class="content-container-list">
+                                                    <ul class="propertyList">
+                                                        <li>
+                                                            <h3>415 East 80th Street #1E</h3>
+                                                            <p class="price">$399,995</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-prop-specs-list">
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>1812 ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>7 rooms</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>2.5 Baths</p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>$ per ft<sub>2</sub></p></li>
+                                                        <li><span><img src="./images/3.png" alt="image"></span><p>3 Beds</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="vieaAllButton">
+                   <a href="#">View All Listings</a> 
+                </div>
+
+            </div>
+    </section>
+    
+    <!-- Home About Us Section -->
+    <section class="homeAboutusSection">
+        <div class="container">
+             <div class="homeAboutMain">
+                 <div class="homeAboutFlex">
+                     <div class="homeAboutLeftImages">
+                         <div class="AboutLeftImage1"><img src="./images/about-new-1.png"></div>
+                         <div class="AboutLeftImage2"><img src="./images/about-new-2.png" alt="image"></div>
+                     </div>
+                     <div class="homeAboutRightText">
+                         <div class="homeAboutRightTextInner">
+                             <h2>Our Services</h2>
+                             <p>White-glove client service, ingenious marketing strategies, scrupulous business practices and record-breaking sales deals.</p>
+                             <p>Mahgerefteh Advisory Team is one of the top-producing and most recognized real estate names in New York and the U.S. today.</p>
+                             <!-- <a href="#">Learn More</a> -->
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Mahgerefteh Records Section -->
+    <section class="mahgereftehrecords" style="background-image: url(./images/sets-records.png);">
+        <div class="container">
+            <div class="mahgereftehrecordsMain">
+                <div class="mahgereftehrecordsInner">
+                    <div class="mahgereftehrecordsHeading">
+                        <h3>The Mahgerefteh Advisory Team Sets Records</h3>
+                    </div>
+                    <div class="mahgereftehrecordsFlex" id="counter">
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>#</span>
+                                <div class="counting" data-count="1"><span>0</span></div>    
+                                <span>Team</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                2 Years in a row by Realtrends + Tom Ferry The Thousand
+                            </p>
+                        </div>
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>#</span>
+                                <div class="counting" data-count="1"><span>0</span></div>    
+                                <span>Team</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                2 years in a row at douglas elliman real estate
+                            </p>
+                        </div>
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>$</span>
+                                <div class="counting" data-count="1"><span>0</span></div>    
+                                <span>Billion</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                Closed
+                            </p>
+                        </div>
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>$</span>
+                                <div class="counting" data-count="1"><span>0</span></div>    
+                                <span>Billion</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                Closed and in contract during 2021
+                            </p>
+                        </div>
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>$</span>
+                                <div class="counting" data-count="240"><span>0</span></div>    
+                                <span>M</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                Highest Penthouse Sold in New York
+                            </p>
+                        </div>
+                        <div class="singleRecordBox">
+                            <div class="counterFlex">
+                                <span>$</span>
+                                <div class="counting" data-count="72"><span>0</span></div>    
+                                <span>M</span>
+                            </div>
+                            <p class="ainmateBoxText">
+                                Most Expensive Residence in Aspen
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Home Our Services Section -->
+    <section class="ourServicesSection">
+        <div class="container">
+            <div class="homeServicesHeading">
+                <h2>Our Exclusive Services</h2>
+                <p>OUR PROMISE TO OUR EXCLUSIVE CLIENTS IS TO DELIVER EVERYTHING MENTIONED, PLUS ADDITIONAL LUXURY ADD-ONS FOR AN EXTRAORDINARY EXPERIENCE AND REMARKABLE RESULTS.</p>
+            </div>
+            <div class="homeServicesMain">
+                <div class="services">
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/1.png" alt="">
+                                <h1>Property Website</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/2.png" alt="">
+                                <h1>Cold Calling</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/3.png" alt="">
+                                <h1>Luxury Renderings</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/4.png" alt="">
+                                <h1>Email Marketing</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/4.png" alt="">
+                                <h1>24/7 Availability For Showings</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/5.png" alt="">
+                                <h1>Digital Marketing</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/6.png" alt="">
+                                <h1>Zillow Premier/Streeteasy Spotlight
+                                </h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our_services-provide_col">
+                        <div class="our_services-provide">
+                            <div class="service_content"> 
+                                <img src="./images/7.png" alt="">
+                                <h1>Featured Properties</h1>
+                                <div class="hiding-para">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui optio quaerat earum vel, maxime minus iure odio, in tenetur exercitationem deleniti ullam ipsam inventore amet consectetur aperiam veniam assumenda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mahgerefteh Properties Section -->
+    <section class="propertiesSection">
+        <div class="propBackCOlor"></div>
+        <div class="container">
+            <div class="propBackground" style="background-image: url(./images/mahag-new.png);">
+            </div>
+            <div class="mehgePropDetails">
+                <h3>Mahgerefteh Properties</h3>
+                <p><strong>Mahgerefteh Advisory </strong> is a team of real estate agents affiliated with <span>R New York. R New York</span>  is a licensed real estate broker and abides by Equal Housing Opportunity laws. All material presented herein is intended for informational purposes only. Information is compiled from sources deemed reliable but is subject to errors, omissions, changes in price, condition, sale, or withdrawal without notice.</p>
+                <p>No statement is made as to the accuracy of any description. All measurements and square footages are approximate. This is not intended to solicit property already listed. Nothing herein shall be construed as legal, accounting, or other professional advice outside the realm of real estate brokerage. For additional information on NYS Fair Housing, please <a href="#">click here.</a></p>
+                <a class="propAnchor" href="#">Our Services</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Ariel Mahgerefteh FOunder Section -->
+    <section class="arielMehge">
+        <div class="container">
+            <div class="arielMehgeMain">
+                <div class="arielMehgeFlex">
+                    <div class="arielMehgeLeft">
+                        <div class="arielMehgeLeftInner">
+                            <h6>Founder</h6>
+                            <h3>Ariel Mahgerefteh</h3>
+                            <p>In an industry full of personalities from all around the world, ArielMahgerefteh is one of a kind. He was born into real estate andbred for success. He leads Mahgerefteh Advisory in a way that theyare big enough to assist you, yet small enough to know you. </p>
+                            <a href="#">Meet The Team</a>
+                        </div>
+                    </div>
+                    <div class="arielMehgeRight">
+                        <div class="arielMehgeRightInner">
+                            <img src="./images/founder-man.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work With Us Section -->
+    <section class="workWithUs" style="background-image: url(./images/work-with-new.png);">
+        <div class="container">
+            <div class="workWithContent">
+                <div class="workWithContentInner">
+                    <h3>Work With Us</h3>
+                    <p> any questions or comments, please contact us via email or phone, or send us a message using the contact form.</p>
+                    <a href="#">Conatct Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Us popup -->
+    <div class="contact-popup-main">
+        <div class="contact-popup-inner">
+            <span class="contact-closer">✖</span>
+            <div class="contact-popup-heading">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact-popup-flex">
+                <div class="contact-popup-left">
+                    <div class="contact-inner-headings">
+                        <h3>Submit a Message</h3>
+                    </div>
+                    <div class="contactUs-form">
+                        <form action="">
+                            <div class="contact-single-input">
+                                <input type="text">
+                                <label for="">Full Name</label>
+                                
+                            </div>
+                            <div class="contact-single-input">
+                                <input type="email">
+                                <label for="">Email Address</label>
+                                
+                            </div>
+                            <div class="contact-single-input">
+                                <input type="tel">
+                                <label for="">Phone Number</label>
+                                
+                            </div>
+                            <div class="contact-single-input contact-textarea">
+                                <textarea name=""></textarea>
+                                <label for="">Your Message</label>
+                                
+                            </div>
+                            <div class="contact-single-input">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="contact-popup-right">
+                    <div class="contact-inner-headings">
+                        <h3>Contact Information</h3>
+                    </div>
+                    <div class="contactUs-info">
+                        <p>If you have any questions or comments, please contact us via email or phone, or send us a message using the contact form.</p>
+                        <div class="contact-info-list">
+                            <ul>
+                                <li><p><span>Email</span></p><a href="mailto:ariel@wernewyork.com">ariel@wernewyork.com</a></li>
+                                <li><p><span>Phone</span></p><a href="tel:(917) 204-1585">(917) 204-1585</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-circle">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Site Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="top-footer">
+                <div class="site-footer-logo">
+                    <a href="#"><img src="./images/logo.png" alt="image"></a>
+                </div>
+                <div class="footerColFlex">
+                    <div class="footSingleColumn">
+                        <p>Call</p>
+                        <a href="tel:(917) 204-1585">(917) 204-1585</a>
+                    </div>
+                    <div class="footSingleColumn">
+                        <p>Email</p>
+                        <a href="mailto:Ariel@Wernewyork.com">Ariel@Wernewyork.com</a>
+                    </div>
+                    <div class="footSingleColumn">
+                        <p>Address</p>
+                        <p>433 Broadway New York, NY 10013</p>
+                    </div>
+                    <div class="footSingleColumn">
+                        <p>Newsletter</p>
+                        <div class="newsLetter">
+                            <input type="email" placeholder="Email Address">
+                            <button type="submit">Send </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="bottomFooterInnerContent">
+                    <p>© Mahgerefteh Advisory. All Rights Reserved 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Custom Script -->
+    <script src="./script/script.js"></script>
+    <script>
+
+        // Contact PopUp
+
+        $(document).ready(function () {
+            $(".contact-click").click(function () {
+                
+                $(".contact-popup-main").show();
+                $(".contact-popup-main").addClass('active');
+            });
+
+            $(".contact-popup-main span.contact-closer").click(function () {
+                $(".contact-popup-main").hide();
+                $(".contact-popup-main").removeClass('active');
+            });
+
+        });
+
+        
+
+              $(document).ready(function(){
+                $('.our_services-provide_col').hover(function(){
+                    $(this).toggleClass('active');
+                    // $(this).find('.hiding-para').slideDown();
+                    if ($('.our_services-provide_col').hasClass('active')) {
+                    $(this).find('.hiding-para').slideDown();
+                } else {
+                    $('.hiding-para').slideUp();
+                }
+                });
+                
+              })
+              
+
+    </script>
+
+</body>
+</html>
